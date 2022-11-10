@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rammstein</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+    body {
+        color: white;
+    }
+
+    .main {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container {
+        margin-top: 10px;
+        color: white;
+        font-size: 16px;
+        background: rgb(36,0,0);
+        background: radial-gradient(circle, rgba(36,0,0,1) 0%, rgba(121,9,9,1) 79%, rgba(209,5,5,1) 100%);
+        display: flex;
+
+    }
+    .right {
+        width: 40%;
+        margin: auto;
+        padding: 20px;
+    }
+    .right img {
+        width: 100%;
+    }
+
+    .left {
+        width: 70%;
+    }
+
+
+
+    .albums {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+    .alb img {
+        max-width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+
+    .Merch {
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .Merch a {
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+        max-width: 100%;
+
+    }
+
+    .Merch a:hover {
+        color: orangered;
+    }
+
+
+
+    @media screen and (max-width: 600px) {
+            .left {
+            width: 100%;
+        }
+
+        .right {
+            width: 100%;
+        }
+    }
+</style>
+<body>
+    
+    <div class="headbackground">
+        <div class="bandName">
+            <img src="https://fontmeme.com/permalink/221107/e170c58dd1ea72f55a09f2bade790212.png" alt="rammstein-font" border="0"></a>
+        </div>
+
+        <nav id="navbar">
+            <a href="#">About</a>
+            <a href="#">History</a>
+            <a href="#Merch">Merch</a>
+            <a href="#">Members</a>
+        </nav>
+    </div>
+    <div class="firstpart">
+        <section>
+            <div class="content" >
+                <p>Zafran kewt</p>
+            </div>
+            <div class="song1">
+            </div>
+        </section>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="left">
+                <p>
+                    Rammstein is a german metal band formed in 1994. The band is still active to this day. More info on live
+                    show here
+                </p>
+            </div>
+
+            <div class="right">
+                <img src="https://cdn.mos.cms.futurecdn.net/jkAZ5cu36EwVpigeqG8Gnb.jpg" alt="">
+            </div>
+        </div>
+        <h1>Recent Albums</h1>
+        <div class="albums">
+            <div class="alb">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <p>Zeit, 2022</p>
+            </div>
+            <div class="alb">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAGQAZAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQUGBAf/xAAnEAEAAgECBQMFAQAAAAAAAAAAAQIRAyEEBQYSMUFxoTJRYZHBB//EABYBAQEBAAAAAAAAAAAAAAAAAAACAf/EABoRAQACAwEAAAAAAAAAAAAAAAABEQIDMhL/2gAMAwEAAhEDEQA/APtCgAioAoAioAKigiooAAIogKACKJMTNZis9szGInGcSAOP/wAt4/mfMOnJ1ecW1ra9dSKZ1onu2rXO/rvM7uwZE3Fr2YeMpxsFRqFQABQAQBQACv1R7hHmAc/0RE15Jo0ttNaVjHx/G+xOkq9vLsbYxExj7ZmW4jXyvZ1KALQoAAAIqKAigBHmEWPMAyOm4iOCnt8ZiI9ozhrsbpnbhbxOcx2xj9thGvlWfUgC0qIoIAAqKAAAeqAMPpW9tTQ4u15iZjidSu341Lw3Hl5fwGjy/T1KaE37b6lrz3THm1ptPzMvUnGKim5Tc2qApiiKAACBCgIoCKAIqAAAAKAAAgAAAoACAAsACAAoAP/Z" alt="">
+                <p>Rammstein, 2021</p>
+            </div>
+            <div class="alb">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <p>Paris, 2017</p>
+            </div>
+        </div>
+        <h1 style="text-align: center;">Merchandise</h1>
+        <div class="Merch" id="Merch">
+            <a href="#">
+                <img src="https://shop.rammstein.de/img/katalog/854/316/dunkel20111101-152445-ts-ramones-blau-f500.jpg.webp" alt="">
+                <p>Test Shirt</p>
+            </a>
+            <a href="#">
+                <img src="https://shop.rammstein.de/img/katalog/854/316/dunkel20111101-152445-ts-ramones-blau-f500.jpg.webp" alt="">
+                <p>Test Shirt</p>
+            </a>
+            <a href="#">
+                <img src="https://shop.rammstein.de/img/katalog/854/316/dunkel20111101-152445-ts-ramones-blau-f500.jpg.webp" alt="">
+                <p>Test Shirt</p>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
