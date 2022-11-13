@@ -74,7 +74,6 @@ section {
     text-decoration: none;
     padding: 8px;
     font-size: 1.5vw;
-    border: solid 1px orangered;
     background-color: black;
     color: white;
     width: 120px;
@@ -84,7 +83,9 @@ section {
 }
 
 #navbar a:hover {
-    color: orangered
+    color: orangered;
+    text-decoration: underline;
+
 }
 
 #navbar {
