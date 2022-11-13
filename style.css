@@ -107,11 +107,7 @@ section {
 
 
 
-      #navbar {
-          flex-direction: column;
-          padding: 10px;
-          
-      }
+
 
       #navbar a {
           margin: auto;
