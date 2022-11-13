@@ -6,6 +6,7 @@ body {
     margin: 0;
     height: 2000px;
     background-color: black;
+    color: white;
 }
 
 
@@ -23,11 +24,15 @@ body {
     
 }
 
+
+
+
+
 .firstpart p {
     font-size: 2vw;
 }
 .firstpart {
-    background-image: url(duhast.gif);
+    background-image: url(Images/duhast.gif);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,7 +112,12 @@ section {
 
 
 
-
+      #navbar {
+          flex-direction: row;
+          padding: 10px;
+          max-width: 100%;
+          
+      }
 
       #navbar a {
           margin: auto;
@@ -128,6 +138,7 @@ section {
         flex-wrap: wrap;
         
     }
+
 
 
   }
