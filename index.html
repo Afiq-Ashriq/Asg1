@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
     <style>
 
         body {
@@ -48,8 +49,9 @@
 
         .left {
             width: 70%;
-            padding-left: 10px;
+            padding: 10px;
         }
+
 
 
 
@@ -82,6 +84,8 @@
 
         .Merch a:hover {
             color: orangered;
+            transition: ease-in-out;
+            
         }
 
         .gallery {
@@ -98,9 +102,7 @@
             margin: 10px;
         }
 
-        .Merch img:hover {
-            border: solid 1px orangered;
-        }
+
 
         
 
@@ -120,28 +122,30 @@
             border: solid 2px orangered;
             border-radius: 2px;
             margin: 10px;
-        }
+            }
 
-        .gallery {
-            justify-content: center;
-        }
+            .gallery {
+                justify-content: center;
+            }
 
         }
     </style>
 </head>
 <body>
-    
     <div class="headbackground">
         <div class="bandName">
             <a href="index.html"><img src="https://fontmeme.com/permalink/221107/e170c58dd1ea72f55a09f2bade790212.png" alt="rammstein-font" border="0"></a>
         </div>
 
-        <nav id="navbar">
-            <a href="#">About</a>
-            <a href="music.html">Songs</a>
-            <a href="shows.html" target="_blank">Shows</a>
-            <a href="members.html" target="_blank">Members</a>
-        </nav>
+        <div class="navcon">
+            <nav id="navbar">
+                <a href="#">About</a>
+                <a href="music.html">Songs</a>
+                <a href="shows.html" target="_blank">Shows</a>
+                <a href="members.html" target="_blank">Members</a>
+            </nav>
+        </div>
+        
     </div>
     <div class="firstpart">
         <section>
@@ -151,7 +155,6 @@
         </section>
     </div>
     <div class="main">
-        <hr id="firstline">
         <div class="container">
             <div class="left">
                 <p>
@@ -205,6 +208,18 @@
             </a>
         </div>
     </div>
+    <footer>
+        <div class="footer-content">
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <p id="madeBy">Webage made by: Afiq Ashriq</p>
+        </div>
+        
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
     <script src="./index.js"></script>

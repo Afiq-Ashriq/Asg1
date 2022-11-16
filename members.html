@@ -16,14 +16,34 @@
             margin-left: auto;
             margin-right: auto;
         }
-        #test {
-            filter: blur(8px);
-            -webkit-filter: blur(8px);
 
+        .Member-container {
+            display: flex;
+    
         }
-        #test:hover {
-            filter: none;
-            -webkit-filter: grayscale(0);
+
+        .left {
+            width: 30%;
+        }
+
+        .left img {
+            max-width: 100%;
+        }
+
+        .Member-content {
+            width: 70%;
+            padding: 5px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .Member-container {
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+            .Member-content {
+                width: 100%;
+            }
+  
         }
 
 
@@ -45,14 +65,19 @@
     <div class="Main">
         <h1>Members of Rammstein</h1>
         <hr>
+        <h2>Till Lindemann</h2>
         <div class="Member-container">
-            <div>
-                <h2>Till Lindemann</h2>
-                <img id="test" src="Images/Till-Lindemann.jpg" alt="Till Lindemann">
+            <div class="left">
+                <img id="image" src="Images/Till-Lindemann.jpg" alt="Till Lindemann">
             </div>
             <div class="Member-content">
-                <p>Full Name: Till Lindemann</p>
-                <p>Date of birth: 4 January 1963 </p>
+                <p>Full Name: Till Lindemann<br>Date of birth: 4 January 1963
+                <br>Height: 1.85m (6'1) </p>
+                <h3>Biograpghy</h3>
+                <p>Till lindemann is the lead singer for Rammstein. He was
+                    born in Leipzig, East Germany. Before Rammstein, Lindemann was
+                    a drummer for a band called  First Arsch.
+                </p>
 
 
 
