@@ -6,23 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rammstein</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <style>
-        .main {
+        .Main {
             width: 90%;
             margin-left: auto;
             margin-right: auto;
         }
 
+        .Member-container {
+            display: flex;
+    
+        }
 
+        .left {
+            width: 30%;
+        }
 
+        .left img {
+            max-width: 100%;
+        }
 
+        .Member-content {
+            width: 70%;
+            padding: 5px;
+        }
 
-
+        @media screen and (max-width: 600px) {
+            .Member-container {
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+            .Member-content {
+                width: 100%;
+            }
+  
+        }
 
 
     </style>
 </head>
 <body>
-    
+    <div class="headbackground">
+        <div class="bandName">
+            <a href="index.html"><img src="https://fontmeme.com/permalink/221107/e170c58dd1ea72f55a09f2bade790212.png" alt="rammstein-font" border="0"></a>
+        </div>
+
+        <nav id="navbar">
+            <a href="#">About</a>
+            <a href="music.html">Songs</a>
+            <a href="shows.html" target="_blank">Shows</a>
+            <a href="members.html" target="_blank">Members</a>
+        </nav>
+    </div>
+    <div class="Main">
+        <h1>Members of Rammstein</h1>
+        <hr>
+        <h2>Till Lindemann</h2>
+        <div class="Member-container">
+            <div class="left">
+                <img id="image" src="Images/Till-Lindemann.jpg" alt="Till Lindemann">
+            </div>
+            <div class="Member-content">
+                <p>Full Name: Till Lindemann<br>Date of birth: 4 January 1963
+                <br>Height: 1.85m (6'1) </p>
+                <h3>Biograpghy</h3>
+                <p>Till lindemann is the lead singer for Rammstein. He was
+                    born in Leipzig, East Germany. Before Rammstein, Lindemann was
+                    a drummer for a band called  First Arsch.
+                </p>
+            </div>
+        </div>
+        
+
+
+    </div>
 </body>
 </html>
