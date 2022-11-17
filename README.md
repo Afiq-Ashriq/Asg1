@@ -57,8 +57,30 @@ https://greensock.com/scrolltrigger/
 
 ----CREDITS----
 
-credits for Images,gifs used
+Content
+
+- Image zoom in on page #Members.html. https://w3bits.com/css-image-hover-zoom/
+
+
+
+
+Media
 https://note-store.com/musicians/till-lindemann/
+
+
+
+
+Acknowledgements
+
+I got some inspiration from the actual rammstein project. E.g. Gif at the home page.
+https://www.rammstein.de/en/
+
+
+
+
+
+
+
 
 
 
