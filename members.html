@@ -13,9 +13,8 @@
             margin-right: auto;
         }
         
-
-        
         .Member-imgs {
+            width: 100%;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
@@ -27,6 +26,13 @@
             height: 350px;
         }
 
+        .flex-item {
+            padding: 2%;
+        }
+
+
+
+
 
         .Member-imgs img {
             transition: transform 0.25s;
@@ -37,6 +43,30 @@
 
         .Member-imgs img:hover {
             transform: scale(1.1);
+        }
+
+
+
+
+        @media  screen and (max-width: 600px) {
+
+            .Member-imgs {
+                display: grid;
+                font-size: 10px;
+                grid-template-columns: 50% 50%;
+            }
+
+            .Member-imgs div{
+                overflow: hidden;
+                max-width: 100%;
+                height: auto;
+        }
+
+            .Member-imgs img {
+                height: 150px;
+                width: auto;
+                }
+
         }
 
 
@@ -66,40 +96,40 @@
     </div>
     <div class="main">
         <div class="Member-imgs">
-            <div>
+            <div class="flex-item">
                 <p>Till-Lindemann (Lead Singer)</p>
-                <div>
-                    <a href="Lindemann-Page.html"><img src="images/Till-Lindemann.jpg" alt=""></a>
+                <div class="Member">
+                    <a  href="Lindemann-Page.html"><img height="350px" width="300px" src="images/Till-Lindemann.jpg" alt=""></a>
                 </div>
             </div>
-            <div>
-                <p>Oliver Riedel (Guitarist)</p>
-                <div>
-                    <a href="members.html"><img src="images/oliver_riedel.jpg" alt=""></a>
+            <div class="flex-item">
+                <p>Oliver Riedel (Bassist)</p>
+                <div class="Member">
+                    <a href="members.html"><img height="350px" width="300px" src="images/oliver_riedel.jpg" alt=""></a>
                 </div>
             </div>
-            <div>
-                <p>Till-Lindemann</p>
-                <div>
-                    <a href="members.html"><img src="images/Till-Lindemann.jpg" alt=""></a>
+            <div class="flex-item">
+                <p>Richard Kruspe (Lead Guitar)</p>
+                <div class="Member">
+                    <a href="members.html"><img height="350px" width="300px" src="images/Richard-Krupse.jpg" alt=""></a>
                 </div>
             </div>
-            <div>
-                <p>Till-Lindemann</p>
-                <div>
-                    <a href="members.html"><img src="images/Till-Lindemann.jpg" alt=""></a>
+            <div class="flex-item">
+                <p>Paul Landers (Rhythm Guitar)</p>
+                <div class="Member">
+                    <a href="members.html"><img height="350px" width="300px" src="images/Paul-Landers.jpg" alt=""></a>
                 </div>
             </div>
-            <div>
-                <p>Till-Lindemann</p>
-                <div>
-                    <a href="members.html"><img src="images/Till-Lindemann.jpg" alt=""></a>
+            <div class="flex-item">
+                <p>Christian Lorenz (Synthesiser)</p>
+                <div class="Member">
+                    <a href="members.html"><img height="350px" width="300px" src="images/Christian-Lorenz.jpg" alt=""></a>
                 </div>
             </div>
-            <div>
-                <p>Till-Lindemann</p>
-                <div>
-                    <a href="members.html"><img src="images/Till-Lindemann.jpg" alt=""></a>
+            <div class="flex-item">
+                <p>Christoph Schneider (Drummer)</p>
+                <div class="Member">
+                    <a href="members.html"><img height="350px" width="300px" src="images/Christoph-Schneider.jpg" alt=""></a>
                 </div>
             </div>
                 

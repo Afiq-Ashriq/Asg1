@@ -68,6 +68,8 @@ Media
 Member images for members page
 https://note-store.com/musicians/till-lindemann/
 https://www.sandberg-guitars.de/oliver-riedel/
+https://www.imdb.com/name/nm0004574/
+https://mubi.com/cast/flake-lorenz
 
 
 
