@@ -19,13 +19,21 @@ body {
     padding: 15px;
 }
 
+
+.bandName {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .bandName img {
-    display: block;
-    margin: auto;
     max-width: 100%;
     height: auto;
+
     
 }
+
+
+
 
 
 
@@ -126,8 +134,9 @@ footer {
 }
 
 .socials {
-    font-size: 2vw;
+    font-size: 25px;
     display: flex;
+    justify-content: center;
 }
 
 .navcon {
