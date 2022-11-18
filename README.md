@@ -65,7 +65,9 @@ Content
 
 
 Media
+Member images for members page
 https://note-store.com/musicians/till-lindemann/
+https://www.sandberg-guitars.de/oliver-riedel/
 
 
 
