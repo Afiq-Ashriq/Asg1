@@ -1,0 +1,50 @@
+.Main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Member-container {
+    display: flex;
+
+}
+
+.left {
+    width: 30%;
+}
+
+.left img {
+    max-width: 80%;
+    height: 100%;
+}
+
+.Member-content {
+    width: 70%;
+    padding: 5px;
+}
+
+
+.arrow {
+    color: white;
+    font-size: 25px;
+}
+
+.arrow:hover {
+    color: orangered;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .Member-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .Member-content {
+        width: 100%;
+    }
+    .left img {
+        max-width: 250%;
+        height: 200px;
+    }
+
+}

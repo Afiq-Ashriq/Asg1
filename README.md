@@ -35,6 +35,8 @@ FEATURES LEFT TO IMPLEMENT
 GSAP javascript toolset for some scrolling animation
 https://greensock.com/scrolltrigger/
 
+splide.js for Image gallery
+
 
 
 
@@ -70,6 +72,18 @@ https://note-store.com/musicians/till-lindemann/
 https://www.sandberg-guitars.de/oliver-riedel/
 https://www.imdb.com/name/nm0004574/
 https://mubi.com/cast/flake-lorenz
+https://metalwani.com/tag/richard-kruspe
+
+Gallery images
+https://www.rollingstone.com/music/music-album-reviews/rammstein-tussle-with-germanys-past-embrace-their-own-darkness-on-self-titled-album-835717/
+
+https://www.dw.com/en/rammstein-releases-first-studio-album-in-10-years/a-48776716
+
+https://www.thesun.co.uk/tvandshowbiz/celebrities/18451576/rammstein-2023-european-tour-tickets/
+
+https://www.amazon.co.uk/Rammstein/e/B000AQ6VFW
+
+https://www.twincities.com/2022/08/27/german-metal-band-rammstein-delivers-fiery-theatrical-and-loud-concert-at-u-s-bank-stadium/
 
 
 

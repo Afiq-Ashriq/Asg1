@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rammstein</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="members.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -15,6 +16,45 @@
             width: 90%;
             margin-left: auto;
             margin-right: auto;
+        }
+
+        .album-container {
+            display: flex;
+
+        }
+
+        .left {
+            width: 30%;
+        }
+
+        .left img {
+            max-width: 80%;
+            height: 100%;
+        }
+
+        .album-content {
+            width: 70%;
+            padding: 5px;
+        }
+
+        .album-content ul {
+            padding: 20px;
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .album-container {
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+            .album-content {
+                width: 100%;
+            }
+            .left img {
+                max-width: 250%;
+                height: 200px;
+            }
+
         }
 
 
@@ -34,6 +74,24 @@
                 <a href="shows.html" target="_blank">Shows</a>
                 <a href="members.html" target="_blank">Members</a>
             </nav>
+        </div>
+    </div>
+    <div class="main">
+        <hr>
+        <h2>Zeit (2022)</h2>
+        <div class="album-container">
+            <div class="left">
+                <img id="image" src="Images/Rammstein_-_Zeit.png" alt="Album:Zeit">
+            </div>
+            <div class="album-content">
+                <h2>Songs</h2>
+                <ul>
+                    <li>Armee der Tristen</li>
+                    <li>Zeit</li>
+                    <li>Shwarz</li>
+                    <li>Giftig</li>
+                </ul>
+            </div>
         </div>
     </div>
 
