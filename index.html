@@ -290,7 +290,7 @@
             <li class="thumbnail"><img src="images/Img4.jpg" alt=""></li>
             <li class="thumbnail"><img src="images/Img5.jpg" alt=""></li>
         </ul>
-        <h1 style="text-align: center;">Merchandise</h1>
+        <h1 style="text-align: center;">Store</h1>
         <div class="Merch" id="Merch">
             <a href="#">
                 <img src="https://shop.rammstein.de/img/katalog/854/316/dunkel20111101-152445-ts-ramones-blau-f500.jpg.webp" alt="">
@@ -316,6 +316,9 @@
     </div>
     <footer>
         <div class="footer-content">
+            <form action="#demo"><input type="email" name="name" id="useremail">
+            <button id="button" onclick="thankYou()">Submit</button></form>
+            <p id="demo"></p>
             <div class="socials">
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-youtube"></i></a>
@@ -366,6 +369,14 @@
     } );
 
     splide.mount();
+
+    const dc = document.getElementById('display');
+    var test = document.querySelector('.button');
+
+    function thankYou() {
+        document.getElementById('demo').innerHTML = "Thank you for signing up."
+    }
+
 
     </script>
 
