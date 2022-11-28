@@ -2,6 +2,10 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    background: rgb(121,9,9);
+    background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgba(139,24,24,1) 100%);
+    border-radius: 50px;
+    padding: 15px;
 }
 
 .Member-container {
