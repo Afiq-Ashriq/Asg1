@@ -22,24 +22,19 @@
             
         }
 
-        #logo img {
-            width: 10%;
-            height: auto;
-            position: relative;        
-        }
-
         .main {
             width: 90%;
             margin-left: auto;
             margin-right: auto;
         }
-        .container {
+        .about-container {
             margin-top: 10px;
             color: white;
             font-size: 16px;
             background: rgb(36,0,0);
             background: radial-gradient(circle, rgba(36,0,0,1) 0%, rgba(121,9,9,1) 79%, rgba(209,5,5,1) 100%);
             display: flex;
+            text-align: left;
 
         }
         .right {
@@ -58,6 +53,7 @@
 
         .left a {
             color: gold;
+            display: inline-block;
         }
 
 
@@ -84,9 +80,17 @@
             gap: 10px;
         }
 
+        .Merch p {
+            margin: 0;
+        }
+
+
         .Merch img {
+            width: 100%;
+        }
+
+        .Merch a {
             width: 300px;
-            height: 300px;
         }
         .Merch a,.head-store-item a {
             text-decoration: none;
@@ -95,6 +99,7 @@
             max-width: 100%;
 
         }
+
 
         .Merch a:hover, .head-store-item a:hover {
             color: orangered;
@@ -106,7 +111,7 @@
             display: flex;
             justify-content: center;
             background: rgb(121,9,9);
-background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgba(139,24,24,1) 100%);
+            background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgba(139,24,24,1) 100%);
             width: 100%;
             margin-bottom: 20px;
         }
@@ -176,6 +181,10 @@ background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgb
 
         .song img:hover {
             transform: scale(1.03);
+        }
+
+        #message {
+            text-align: center;
         }
 
 
@@ -252,7 +261,7 @@ background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgb
             .Merch {
             display: flex;
             
-        }
+            }
             
             .Merch img {
                 width: 100px;
@@ -278,10 +287,18 @@ background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgb
 
             .song div {
                 max-width: 100%;
+                height: auto;
+            }
+
+            .head-store-item a {
+                max-width: 70%;
+
+            }
+
+            .Merch p {
+                width: 65%;
             }
     
-
-
 
         }
     </style>
@@ -316,11 +333,11 @@ background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgb
             <a target="_blank" width="560" height="315" href="https://www.youtube.com/watch?v=skl6N3zGv-s&ab_channel=RammsteinOfficial"><img width="560" height="315"  src="images/adieu_video.jpg" alt=""></a>
             </div>
         </div>
-        <div class="container">
+        <div class="about-container">
             <div class="left">
                 <p>
                     Rammstein is an award winning german band formed in 1994. The band consist of 6 members, <a href="Lindemann-Page.html" target="_blank">Till Lindemann</a> the Vocalist, <a href="Kruspe-Page.html"> Richard Kruspe </a> (guitarist), 
-                    Paul Landers (guitarist), Oliver Riedel (Bassist), Christoph Scheider (Drummer), Christian Lorenz (Keyboardist).
+                    <a href="Landers-Page.html" target="_blank">Paul Landers(guitarist), <a href="Riedel-Page.html" target="_blank">Oliver Riedel</a>(Bassist), <a href="Schneider-page.html" target="_blank">Christoph Scheider</a>(Drummer), <a href="Lorenz-page.html">Christian Lorenz</a>(Keyboardist).
                 </p>
             </div>
 
@@ -373,7 +390,7 @@ background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgb
         <div class="Merch" id="Merch">
             <a href="#">
                 <img src="https://shop.rammstein.de/img/katalog/854/316/dunkel20111101-152445-ts-ramones-blau-f500.jpg.webp" alt="">
-                <p>Test Shirt awda awd awd aw daw aaddwad a ad ww d</p>
+                <p>T-SHIRT "EST. 1994" *BLUE*</p>
             </a>
             <a href="#">
                 <img src="https://shop.rammstein.de/img/katalog/854/316/dunkel20111101-152445-ts-ramones-blau-f500.jpg.webp" alt="">
@@ -390,17 +407,21 @@ background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgb
         </div>
     <footer>
         <div class="footer-content">
-            <form onsubmit="return false"><input type="email" name="name" id="useremail" placeholder="E-mail">
+            <form onsubmit="return false">
+                <label for="name">Sign up to get the latest news!</label>
+                <input type="email" name="name" id="useremail" placeholder="E-mail">
                 <button id="button" onclick="thankYou()">Submit</button>
+                <p id="message"></p>
             </form>
-            <p id="message"></p>
             <div class="socials">
                 <a href="https://www.instagram.com/rammsteinofficial/?hl=en"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.youtube.com/channel/UCYp3rk70ACGXQ4gFAiMr1SQ"><i class="fa-brands fa-youtube"></i></a>
                 <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
             </div>
-            <div id="madeBy">Webage made by: Afiq Ashriq</div>
+            <div id="madeBy">
+                <p>Website made by Afiq</p>
+            </div>
         </div>
         
     </footer>

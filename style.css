@@ -4,7 +4,6 @@
 
 body {
     margin: 0;
-    height: 2000px;
     background-color: black;
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -111,18 +110,25 @@ section {
 }
 
 footer {
+    display: flex;
     background-color: rgba(24, 24, 24, 0.884);
     width: 100%;
     height: fit-content;
     margin-top: 20px;
     bottom: 0;
+    justify-content: center;
+    
     
 }
 
 .footer-content {
     padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-basis: 100%;
+    column-gap: 7vw;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 
 .footer-content ul {
@@ -132,15 +138,15 @@ footer {
 #madeBy {
     bottom: 0;
     right: 0;
-    margin-right: 5px;
-    text-align: center;
+}
 
+#madeBy p {
+    vertical-align: middle;
 }
 
 .socials {
     font-size: 25px;
     display: flex;
-    justify-content: center;
 }
 
 .navcon {
@@ -171,13 +177,15 @@ footer {
 
 }
 
+#button:hover {
+    cursor: pointer;
+}
+
 #useremail {
     padding: 10px;
 }
 
 form {
-    display: flex;
-    justify-content: center;
 }
 
 
@@ -218,7 +226,7 @@ form {
         flex-direction: row;
       }
 
-      .container {
+      .about-container {
         flex-wrap: wrap;
       }
       
