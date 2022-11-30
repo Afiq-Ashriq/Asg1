@@ -23,7 +23,7 @@ the stories of each member of the band, promote some merchandise, some pictures 
 EXISTING FEATUERS
 Feature 1 - Navigation bar at the top for easy navigation of the website
 Feature 2 - Clicking on the logo at the top of the website brings user to home page
-Feature 3 - 
+Feature 3 - Filter for merchandise
 
 
 ## FEATURES LEFT TO IMPLEMENT
@@ -62,6 +62,8 @@ splide.js for Image gallery
 Content
 
 - Image zoom in on page #Members.html. https://w3bits.com/css-image-hover-zoom/
+- Javascript for media queries for the merchandise filter https://css-tricks.com/working-with-javascript-media-queries/
+- 
 
 
 

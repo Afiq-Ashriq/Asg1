@@ -185,9 +185,15 @@
             transform: scale(1.03);
         }
 
-        #message {
-            text-align: center;
+        .Filter button {
+            border-style: none;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            border: 1px solid white;
         }
+
+
 
 
 
@@ -301,7 +307,6 @@
                 width: 65%;
             }
     
-
         }
     </style>
 </head>
@@ -339,7 +344,7 @@
             <div class="left">
                 <p>
                     Rammstein is an award winning german band formed in 1994. The band consist of 6 members, <a href="Lindemann-Page.html" target="_blank">Till Lindemann</a> the Vocalist, <a href="Kruspe-Page.html"> Richard Kruspe </a> (guitarist), 
-                    <a href="Landers-Page.html" target="_blank">Paul Landers(guitarist), <a href="Riedel-Page.html" target="_blank">Oliver Riedel</a>(Bassist), <a href="Schneider-page.html" target="_blank">Christoph Scheider</a>(Drummer), <a href="Lorenz-page.html">Christian Lorenz</a>(Keyboardist).
+                    <a href="Landers-Page.html" target="_blank">Paul Landers</a>(Guitarist),<a href="Riedel-Page.html" target="_blank">Oliver Riedel</a>(Bassist), <a href="Schneider-page.html" target="_blank">Christoph Scheider</a>(Drummer), <a href="Lorenz-page.html">Christian Lorenz</a>(Keyboardist).
                 </p>
             </div>
 
@@ -389,6 +394,12 @@
                 <img src="https://shop.rammstein.de/img/katalog/2373/498/20221004-134212_rammsteinadieu10inch2dpsrplus.png.webp" alt="">
             </a>
         </div>
+        <div class="Filter">
+            <button onclick="sweaters()">T-shirts</button>
+            <button onclick="sweaters()">Sweaters</button>
+            <button onclick="jackets()">Jackets</button>
+            <button onclick="sweaters()">Pants</button>
+        </div>
         <div class="Merch" id="Merch">
             <a href="#">
                 <img src="https://shop.rammstein.de/img/katalog/854/316/dunkel20111101-152445-ts-ramones-blau-f500.jpg.webp" alt="">
@@ -406,6 +417,20 @@
                 <img src="https://shop.rammstein.de/img/katalog/1400/498/bv00001_biker-weste-sons-of-rammstein_1.jpg.webp" alt="">
                 <p>Test Shirt <br> 34.00 USD</p>
             </a>
+        </div>
+        <div class="Merch" id="Merch" style="display: none;">
+            <a href="#">
+                <img src="Images/XmasSweater.webp" alt="Xmas Sweater Rammstein">
+                <p>X-mas Sweater<br> 34.00 USD</p>
+            </a>
+            <a href="#">
+                <img src="Images/XmasSweater.webp" alt="Xmas Sweater Rammstein">
+                <p>X-mas Sweater<br> 34.00 USD</p>
+            </a>
+            <a href="#">
+                <img src="Images/XmasSweater.webp" alt="Xmas Sweater Rammstein">
+                <p>X-mas Sweater<br> 34.00 USD</p>
+            </a>
             <a href="#">
                 <img src="Images/XmasSweater.webp" alt="Xmas Sweater Rammstein">
                 <p>X-mas Sweater<br> 34.00 USD</p>
@@ -416,9 +441,15 @@
             <form onsubmit="return false">
                 <label for="name">Sign up to get the latest news!</label>
                 <input type="email" name="name" id="useremail" placeholder="E-mail">
-                <button id="button" onclick="thankYou()">Submit</button>
-                <p id="message"></p>
+                <button id="button" onclick="thankYou()">Sign up</button>
+                <p id="message" style="display: none;">Thank you for signing up!</p>
             </form>
+            <nav class="footerNav">
+                <a href="History.html" target="_blank">History</a>
+                <a href="music.html" target="_blank">Songs</a>
+                <a href="shows.html" target="_blank">Shows</a>
+                <a href="members.html" target="_blank">Members</a>
+            </nav>
             <div class="socials">
                 <a href="https://www.instagram.com/rammsteinofficial/?hl=en"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.youtube.com/channel/UCYp3rk70ACGXQ4gFAiMr1SQ"><i class="fa-brands fa-youtube"></i></a>
@@ -429,7 +460,6 @@
                 <p>Website made by Afiq</p>
             </div>
         </div>
-        
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
@@ -471,6 +501,8 @@
     } );
 
     splide.mount();
+
+
 
 
 

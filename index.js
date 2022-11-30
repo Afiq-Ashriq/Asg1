@@ -30,9 +30,21 @@ gsap.from(".gallery > img", 1, {
   const dc = document.getElementById('display');
 
   function thankYou() {
-      document.getElementById('message').innerHTML = "Thank you for signing up."
+      document.getElementById('message').style.display = 'block'
       document.getElementById('useremail').value = ""
   
+  }
+
+  const phoneview = window.matchMedia('(max-width: 600px)')
+  function sweaters() {
+    document.getElementById('Merch').style.display = 'none'
+    var type = document.querySelectorAll('.Merch')
+    if (phoneview) {
+      type[1].style.display = 'flex'
+    }
+    else {
+      type[1].style.display = 'grid'
+    }
   }
 
 

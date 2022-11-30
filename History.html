@@ -20,7 +20,8 @@
         section {
             width: 90%;
             background: rgb(121,9,9);
-            background: radial-gradient(circle, rgba(121,9,9,1) 1%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 100%);
+            background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgba(139,24,24,1) 100%);
+            box-shadow: 0 0 8px 2px black inset;
         }
 
 
@@ -46,7 +47,11 @@
             <h1 style="text-align: center;">HISTORY</h1>
             <section>
                 <h2>Formation of Rammstein (1994)</h2>
-                <p>Rammstein was founded in Berlin, 1994. The founding fathers of the band are <a href="Kruspe-Page.html">Richard Kruspe</a> and <a href="Schneider-page.html">Christoph Schneider</a></p>
+                <p>Rammstein was founded in Berlin, 1994. The founding fathers of the band are <a href="Kruspe-Page.html">Richard Kruspe</a> and <a href="Schneider-page.html">Christoph Schneider.</a>
+                    Richard Kruspe invited <a target="_blank" href="Lindemann-Page.html">Till Lindemann </a> to Rammstein after hearing him sing while he was working. In 1994, there was a contest for amateur 
+                    bands and the winner would receive the opportunity to record a four-track demo 
+                    audiotape in a proffesional studio.
+                </p>
             </section>
         </div>
 
@@ -63,9 +68,15 @@
                 <form onsubmit="return false">
                     <label for="name">Sign up to get the latest news!</label>
                     <input type="email" name="name" id="useremail" placeholder="E-mail">
-                    <button id="button" onclick="thankYou()">Submit</button>
-                    <p id="message"></p>
+                    <button id="button" onclick="thankYou()">Sign up</button>
+                    <p id="message" style="display: none;">Thank you for signing up!</p>
                 </form>
+                <nav class="footerNav">
+                    <a href="History.html" target="_blank">History</a>
+                    <a href="music.html" target="_blank">Songs</a>
+                    <a href="shows.html" target="_blank">Shows</a>
+                    <a href="members.html" target="_blank">Members</a>
+                </nav>
                 <div class="socials">
                     <a href="https://www.instagram.com/rammsteinofficial/?hl=en"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://www.youtube.com/channel/UCYp3rk70ACGXQ4gFAiMr1SQ"><i class="fa-brands fa-youtube"></i></a>

@@ -39,9 +39,6 @@ body {
 
 
 
-
-
-
 .firstpart p {
     font-size: 2vw;
 }
@@ -128,14 +125,30 @@ footer {
     padding: 20px;
     display: flex;
     flex-direction: row;
-    flex-basis: 100%;
-    column-gap: 7vw;
+    column-gap: 10vw;
     max-width: 100%;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .footer-content ul {
     list-style: none;
+}
+
+.footerNav a {
+   text-decoration: none; 
+   color: white;
+}
+.footerNav a:hover {
+    text-decoration: none; 
+    color: rgba(255, 255, 255, 0.592);
+ }
+
+.footerNav {
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }
 
 #madeBy {
@@ -145,6 +158,9 @@ footer {
 
 #madeBy p {
     vertical-align: middle;
+}
+
+#message {
 }
 
 .socials {
