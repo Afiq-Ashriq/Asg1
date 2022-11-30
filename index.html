@@ -33,6 +33,7 @@
             font-size: 16px;
             background: rgb(36,0,0);
             background: radial-gradient(circle, rgba(36,0,0,1) 0%, rgba(121,9,9,1) 79%, rgba(209,5,5,1) 100%);
+            box-shadow: 0 0 8px 2px black inset;
             display: flex;
             text-align: left;
 
@@ -114,6 +115,7 @@
             background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgba(139,24,24,1) 100%);
             width: 100%;
             margin-bottom: 20px;
+            box-shadow: 0 0 8px 2px black inset;
         }
 
 
@@ -404,6 +406,10 @@
                 <img src="https://shop.rammstein.de/img/katalog/1400/498/bv00001_biker-weste-sons-of-rammstein_1.jpg.webp" alt="">
                 <p>Test Shirt <br> 34.00 USD</p>
             </a>
+            <a href="#">
+                <img src="Images/XmasSweater.webp" alt="Xmas Sweater Rammstein">
+                <p>X-mas Sweater<br> 34.00 USD</p>
+            </a>
         </div>
     <footer>
         <div class="footer-content">
@@ -427,7 +433,7 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
-    <script src="./index.js"></script>
+    <script src="index.js"></script>
     <script>
     var splide = new Splide( '#main-carousel', {
     width: 800,
@@ -466,11 +472,6 @@
 
     splide.mount();
 
-    const dc = document.getElementById('display');
-
-    function thankYou() {
-        document.getElementById('message').innerHTML = "Thank you for signing up."
-    }
 
 
     </script>

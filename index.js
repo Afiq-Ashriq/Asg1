@@ -26,3 +26,13 @@ gsap.from(".gallery > img", 1, {
   });
 
 
+
+  const dc = document.getElementById('display');
+
+  function thankYou() {
+      document.getElementById('message').innerHTML = "Thank you for signing up."
+      document.getElementById('useremail').value = ""
+  
+  }
+
+

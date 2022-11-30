@@ -5,6 +5,7 @@
     background: rgb(121,9,9);
     background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgba(139,24,24,1) 100%);
     border-radius: 50px;
+    box-shadow: 0 0 8px 2px black inset;
     padding: 15px;
 }
 
@@ -12,6 +13,7 @@
     display: flex;
 
 }
+
 
 .left {
     width: 30%;
@@ -26,6 +28,10 @@
 .Member-content {
     width: 70%;
     padding: 5px;
+}
+
+.Member-content a {
+    color: gold;
 }
 
 .fa-brands {

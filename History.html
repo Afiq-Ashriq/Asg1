@@ -18,8 +18,9 @@
         }
 
         section {
-            width: 70%;
-            background-color: rgb(46, 42, 42);
+            width: 90%;
+            background: rgb(121,9,9);
+            background: radial-gradient(circle, rgba(121,9,9,1) 1%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 100%);
         }
 
 
@@ -39,13 +40,44 @@
                 <a href="members.html" target="_blank">Members</a>
             </nav>
         </div>
+    </div>
         
         <div class="main">
             <h1 style="text-align: center;">HISTORY</h1>
             <section>
                 <h2>Formation of Rammstein (1994)</h2>
-                <p>Rammstein was founded by Richard Kruspe.</p>
+                <p>Rammstein was founded in Berlin, 1994. The founding fathers of the band are <a href="Kruspe-Page.html">Richard Kruspe</a> and <a href="Schneider-page.html">Christoph Schneider</a></p>
             </section>
         </div>
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="footer-content">
+                <form onsubmit="return false">
+                    <label for="name">Sign up to get the latest news!</label>
+                    <input type="email" name="name" id="useremail" placeholder="E-mail">
+                    <button id="button" onclick="thankYou()">Submit</button>
+                    <p id="message"></p>
+                </form>
+                <div class="socials">
+                    <a href="https://www.instagram.com/rammsteinofficial/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCYp3rk70ACGXQ4gFAiMr1SQ"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div id="madeBy">
+                    <p>Website made by Afiq</p>
+                </div>
+            </div>
+            
+        </footer>
+        <script src="index.js"></script>
 </body>
 </html>
