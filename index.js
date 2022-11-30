@@ -36,15 +36,28 @@ gsap.from(".gallery > img", 1, {
   }
 
   const phoneview = window.matchMedia('(max-width: 600px)')
-  function sweaters() {
-    document.getElementById('Merch').style.display = 'none'
+  function Tshirts() {
     var type = document.querySelectorAll('.Merch')
-    if (phoneview) {
+    type[1].style.display = 'none'
+    if (phoneview.matches) {
+      type[0].style.display = 'flex'
+    }
+    else {
+      type[0].style.display = 'grid'
+    }
+  }
+  function sweaters() {
+    var type = document.querySelectorAll('.Merch')
+    type[0].style.display = 'none'
+    if (phoneview.matches) {
       type[1].style.display = 'flex'
     }
     else {
       type[1].style.display = 'grid'
     }
   }
+
+
+
 
 
