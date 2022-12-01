@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rammstein</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,11 +23,6 @@
             
         }
 
-        .main {
-            width: 90%;
-            margin-left: auto;
-            margin-right: auto;
-        }
         .about-container {
             margin-top: 10px;
             color: white;
@@ -61,17 +57,18 @@
 
 
         .albums {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+            max-width: 100%;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-evenly;
         }
-
 
         .alb img {
-            width: 35%;
-            height: auto;
-            background-size: cover;
+            max-width: 100%;
         }
+
+
+
 
 
         .Merch {
@@ -338,8 +335,9 @@
     <div class="main">
         <div class="song">
             <h1 style="margin: 0;">Latest Music Video</h1>
+            <p>Premiered Nov 25, 2022</p>
             <div>
-            <a target="_blank" width="560" height="315" href="https://www.youtube.com/watch?v=skl6N3zGv-s&ab_channel=RammsteinOfficial"><img width="560" height="315"  src="images/adieu_video.jpg" alt=""></a>
+            <a target="_blank" width="560" height="315" href="https://www.youtube.com/watch?v=skl6N3zGv-s&ab_channel=RammsteinOfficial"><img width="560" height="315"  src="Images/adieu_video.jpg" alt=""></a>
             </div>
         </div>
         <div class="about-container">
@@ -357,14 +355,15 @@
         <h1>Recent Albums</h1>
         <div class="albums">
             <div class="alb">
-                <img src="Images/zeit_album.jpg" alt="">
+                <img src="Images/zeit_album.jpg" alt="Zeit Album Cover">
                 <p>Zeit, 2022</p>
             </div>
             <div class="alb">
-                <img src="Images/Album7.jpg" alt="">
-                <p>Untitled, <br> 2021</p>
+                <img src="Images/Album7.jpg" alt="Untitled Album Cover">
+                <p>Untitled, 2021</p>
             </div>
             <div class="alb">
+                <img src="Images/paris_album.jpg" alt="Paris Album Cover">
                 <p>Paris, 2017</p>
             </div>
         </div>

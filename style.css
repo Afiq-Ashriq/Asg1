@@ -13,21 +13,8 @@ body {
     
 }
 
-::-webkit-scrollbar {
-    background-color: black;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: white;
-    border-radius: 10px;
-}
-
-::-webkit-progress-bar {
-    color: red;
-}
-
-
 .headbackground {
+    display: flex;
     background-color: black;
     height: fit-content;
     padding: 15px;
@@ -221,9 +208,20 @@ footer {
 form {
 }
 
+.main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+}
 
 
 
+@media screen and (max-width:600px) {
+    .main {
+        width: 100%;
+    }
+}
 
 
 
