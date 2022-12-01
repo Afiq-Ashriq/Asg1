@@ -32,7 +32,6 @@ gsap.from(".gallery > img", 1, {
   function thankYou() {
       document.getElementById('message').style.display = 'block'
       document.getElementById('useremail').value = ""
-  
   }
 
   const phoneview = window.matchMedia('(max-width: 600px)')

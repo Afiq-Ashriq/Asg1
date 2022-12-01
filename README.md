@@ -63,7 +63,8 @@ Content
 
 - Image zoom in on page #Members.html. https://w3bits.com/css-image-hover-zoom/
 - Javascript for media queries for the merchandise filter https://css-tricks.com/working-with-javascript-media-queries/
-- 
+- Information on history of band https://www.rammsteinworld.com/en/rammstein/history#:~:text=Formation%20and%20early%20years%20(1994,by%20American%20music%2C%20especially%20Kiss.
+- Information on Oliver Riedel. https://rammwiki.net/wiki/Oliver_Riedel
 
 
 
