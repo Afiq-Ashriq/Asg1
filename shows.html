@@ -23,7 +23,7 @@
             margin: 16px 0px;
         }
 
-        .DateTime {
+        .Date {
             width: 30%;
         }
         .shows a {
@@ -39,6 +39,11 @@
         .shows a:hover {
             background-color: rgba(255, 255, 255, 0.147);
             transition: 100ms ease-in-out;
+        }
+
+        #country {
+            padding: 10px;
+            border-style: none;
         }
 
         @media screen and (max-width: 600px) {
@@ -70,10 +75,11 @@
     </div>
     <div class="main">
         <h1>Live Shows</h1>
-        <h2>European Stadium Tour 2023</h2>
+        <h2>Europe Stadium Tour 2023. Book your tickets now!</h2>
+        <input type="text" id="country" onkeyup="search()" placeholder="Search country"> 
         <div class="shows">
-            <a href="https://www.viagogo.com/sg/Concert-Tickets/Hard-Rock-Metal/Rammstein-Tickets/E-150423698">
-                <div class="DateTime">
+            <a class="showInfo" href="https://www.viagogo.com/sg/Concert-Tickets/Hard-Rock-Metal/Rammstein-Tickets/E-150423698">
+                <div class="Date">
                     <p>Monday, 22 May</p>
                 </div>
                 <div class="Location">
@@ -81,8 +87,8 @@
                     <p>Vingis Park</p>
                 </div>
             </a>
-            <a href="">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Saturday, 27 May</p>
                 </div>
                 <div class="Location">
@@ -90,8 +96,8 @@
                     <p>Helsinki Olympic Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Sunday, 28 May</p>
                 </div>
                 <div class="Location">
@@ -99,8 +105,8 @@
                     <p>Helsinki Olympic Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Friday, 2 June</p>
                 </div>
                 <div class="Location">
@@ -108,253 +114,215 @@
                     <p>Odense Dyrkskueplads</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
-                    <p>Friday, 2 June</p>
-                </div>
-                <div class="Location">
-                    <h3>Odense Municipality, Denmark</h3>
-                    <p>Odense Dyrkskueplads</p>
-                </div>
-            </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Saturday, 3 June</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Odense Municipality, Denmark</h3>
+                    <p>Odense Dyrkskueplads</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Wednesday, 7 June</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Munich, Germany</h3>
+                    <p>Munich Olympic Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Thursday, 8 June</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Munich, Germany</h3>
+                    <p>Munich Olympic Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Saturday, 10 June</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Munich, Germany</h3>
+                    <p>Munich Olympic Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Sunday, 11 June</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Munich, Germany</h3>
+                    <p>Munich Olympic Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Wednesday 14 June</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Slovakia</h3>
+                    <p>Trenčín Airport</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Saturday, 17 June</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Bern, Switzerland</h3>
+                    <p>Wankdorf Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
-                    <p>Saturday, 17 June</p>
-                </div>
-                <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
-                </div>
-            </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Sunday, 18 June</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Bern, Switzerland</h3>
+                    <p>Wankdorf Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
-                    <p>Sunday, 18 June</p>
-                </div>
-                <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
-                </div>
-            </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Friday, 23 June</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Madrid, Spain</h3>
+                    <p>Metropolitano Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Monday, 26 June</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Lisbon, Portugal</h3>
+                    <p>Estádio da Luz</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Saturday, 1 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Padova, Italy</h3>
+                    <p>Euganeo Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Thursday, 6 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Groningen, Netherlands</h3>
+                    <p>Stadspark</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Friday, 7 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Groningen, Netherlands</h3>
+                    <p>Stadspark</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Tuesday, 11 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Budapest, Hungary</h3>
+                    <p>Puskás Arena</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Wednesday, 12 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Budapest, Hungary</h3>
+                    <p>Puskás Arena</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Saturday, 15 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Berlin, Germany</h3>
+                    <p>Berlin Olympic Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Sunday, 16 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Berlin, Germany</h3>
+                    <p>Berlin Olympic Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Tuesday, 18 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Berlin, Germany</h3>
+                    <p>Berlin Olympic Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Saturday, 22 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>France, Paris</h3>
+                    <p>Stade de France</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Wednesday, 26 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Vienna, Austria</h3>
+                    <p>Ernst Happel Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Thursday, 27 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Vienna, Austria</h3>
+                    <p>Ernst Happel Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Sunday, 30 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Chorzów, Poland</h3>
+                    <p>Slaski Stadium</p>
                 </div>
             </a>
-            <a href="#">
-                <div class="DateTime">
+            <a href=""  class="showInfo" >
+                <div class="Date">
                     <p>Monday, 31 July</p>
                 </div>
                 <div class="Location">
-                    <h3>Vilnius, Lithuania</h3>
-                    <p>Vingis Park</p>
+                    <h3>Chorzów, Poland</h3>
+                    <p>Slaski Stadium</p>
                 </div>
             </a>
-
-
         </div>
-
     </div>
-
-
-
-
-
-
-
-
 
     <footer>
         <div class="footer-content">
@@ -367,8 +335,8 @@
             <div class="socials">
                 <a href="https://www.instagram.com/rammsteinofficial/?hl=en"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.youtube.com/channel/UCYp3rk70ACGXQ4gFAiMr1SQ"><i class="fa-brands fa-youtube"></i></a>
-                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href=""  class="showInfo" ><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""  class="showInfo" ><i class="fa-brands fa-twitter"></i></a>
             </div>
             <div id="madeBy">
                 <p>Website made by Afiq</p>
@@ -377,4 +345,26 @@
         
     </footer>
     <script src="index.js"></script>
+    <script>
+        function search() {
+            var input = document.getElementById('country');
+            var searchfilter = input.value.toUpperCase();
+            var info = document.querySelectorAll('.showInfo h3');
+            var box = document.querySelectorAll('.showInfo');
+            for (let i = 0; i < info.length; i++) {
+                var location = info[i].textContent || info[i].innerHTML;
+                if (location.toUpperCase().indexOf(searchfilter) > -1) {
+                    box[i].style.display = "";
+                }
+                else {
+                    box[i].style.display = "none"
+                }
+            }
+
+        }
+
+
+
+
+    </script>
 </body>

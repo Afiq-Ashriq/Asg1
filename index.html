@@ -58,15 +58,15 @@
 
         .albums {
             max-width: 100%;
-            display: grid;
-            grid-template-columns: auto auto auto;
+            display: flex;
+            column-gap: 10px;
             justify-content: space-evenly;
         }
 
         .alb img {
             max-width: 100%;
+            height: auto;
         }
-
 
 
 
@@ -355,15 +355,15 @@
         <h1>Recent Albums</h1>
         <div class="albums">
             <div class="alb">
-                <img src="Images/zeit_album.jpg" alt="Zeit Album Cover">
+                <img style="width: 200px; height: 200px;" src="Images/zeit_album.jpg" alt="Zeit Album Cover">
                 <p>Zeit, 2022</p>
             </div>
             <div class="alb">
-                <img src="Images/Album7.jpg" alt="Untitled Album Cover">
+                <img style="width: 200px; height: 200px;" src="Images/Album7.jpg" alt="Untitled Album Cover">
                 <p>Untitled, 2021</p>
             </div>
             <div class="alb">
-                <img src="Images/paris_album.jpg" alt="Paris Album Cover">
+                <img style="width: 200px; height: 200px;" src="Images/paris_album.jpg" alt="Paris Album Cover">
                 <p>Paris, 2017</p>
             </div>
         </div>
@@ -395,12 +395,6 @@
                 <img src="https://shop.rammstein.de/img/katalog/2373/498/20221004-134212_rammsteinadieu10inch2dpsrplus.png.webp" alt="">
             </a>
         </div>
-        <div class="Filter">
-            <button onclick="Tshirts()">T-shirts</button>
-            <button onclick="sweaters()">Sweaters</button>
-            <button onclick="jackets()">Jackets</button>
-            <button onclick="sweaters()">Pants</button>
-        </div>
         <div class="Merch" id="Merch">
             <a href="#">
                 <img src="https://shop.rammstein.de/img/katalog/854/316/dunkel20111101-152445-ts-ramones-blau-f500.jpg.webp" alt="">
@@ -417,20 +411,6 @@
             <a href="#">
                 <img src="https://shop.rammstein.de/img/katalog/1400/498/bv00001_biker-weste-sons-of-rammstein_1.jpg.webp" alt="">
                 <p>Test Shirt <br> 34.00 USD</p>
-            </a>
-        </div>
-        <div class="Merch" id="Merch" style="display: none;">
-            <a href="#">
-                <img src="Images/XmasSweater.webp" alt="Xmas Sweater Rammstein">
-                <p>X-mas Sweater<br> 34.00 USD</p>
-            </a>
-            <a href="#">
-                <img src="Images/XmasSweater.webp" alt="Xmas Sweater Rammstein">
-                <p>X-mas Sweater<br> 34.00 USD</p>
-            </a>
-            <a href="#">
-                <img src="Images/XmasSweater.webp" alt="Xmas Sweater Rammstein">
-                <p>X-mas Sweater<br> 34.00 USD</p>
             </a>
             <a href="#">
                 <img src="Images/XmasSweater.webp" alt="Xmas Sweater Rammstein">

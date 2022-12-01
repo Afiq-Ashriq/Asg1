@@ -14,7 +14,6 @@ body {
 }
 
 .headbackground {
-    display: flex;
     background-color: black;
     height: fit-content;
     padding: 15px;
