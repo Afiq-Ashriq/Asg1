@@ -61,7 +61,7 @@ Feature 3 - Form in the footer for users to sign up to receive news about the ba
 
 ## ----CREDITS----
 
-Content
+## Content
 
 - Image zoom in on page #Members.html. https://w3bits.com/css-image-hover-zoom/
 - Javascript for media queries for the merchandise filter https://css-tricks.com/working-with-javascript-media-queries/
@@ -71,7 +71,10 @@ Content
 
 
 
-Media
+## Media
+
+Home page header gif. https://imgur.com/gallery/eMHXFDR
+
 Member images for members page
 https://note-store.com/musicians/till-lindemann/
 https://www.sandberg-guitars.de/oliver-riedel/
@@ -81,7 +84,7 @@ https://metalwani.com/tag/richard-kruspe
 https://rammwiki.net/wiki/Paul_Landers
 
 
-Gallery images
+## Gallery images
 https://www.rollingstone.com/music/music-album-reviews/rammstein-tussle-with-germanys-past-embrace-their-own-darkness-on-self-titled-album-835717/
 
 https://www.dw.com/en/rammstein-releases-first-studio-album-in-10-years/a-48776716

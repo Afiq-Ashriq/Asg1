@@ -59,11 +59,18 @@
             justify-content: space-evenly;
         }
 
+        .alb p {
+            width: 150px;
+        }
+
         .alb img {
             max-width: 100%;
             height: auto;
         }
 
+        .alb img:hover {
+            box-shadow: 0 10px 50px red;
+        }
 
 
 
@@ -72,6 +79,7 @@
             grid-template-columns: auto auto auto;
             justify-content: center;
             gap: 10px;
+            margin-bottom: 25px;
         }
 
         .Merch p {
@@ -127,54 +135,17 @@
         .gallery {
             display: flex;
             flex-wrap: wrap;
-            justify-content: flex-start;
+            justify-content: center;
         }
 
         .gallery img {
             width: 30%;
             height: auto;
-            border: solid 2px orangered;
             border-radius: 2px;
             margin: 10px;
         }
 
-        .splide {
-            margin: 0 auto;
-        }
-
-        .thumbnails {
-            display: flex;
-            margin: 10px 0 0;
-            padding: 0;
-            justify-content: center;
-        }
-
-        .thumbnail {
-            width: 85px;
-            height: 70px;
-            overflow: hidden;
-            list-style: none;
-            margin: 5px;
-            cursor: pointer;
-        }
-
-        .thumbnail img {
-            width: 100%;
-            height: 60px;
-        }
-
-
-
-        .thumbnail {
-            opacity: 0.6;
-        }
-
-        .thumbnail.is-active {
-            opacity: 1;
-        }
-
-
-
+ 
         .song img {
             max-width: 100%;
             transition: all .2s ease-in-out;
@@ -312,7 +283,7 @@
 <body>
     <div class="headbackground">
         <div class="bandName">
-            <a href="index.html"><img src="https://fontmeme.com/permalink/221107/e170c58dd1ea72f55a09f2bade790212.png" alt="rammstein-font" border="0"></a>
+            <a href="index.html"><img src="Images/bandName.png" alt="rammstein-font"></a>
         </div>
 
         <div class="navcon">
@@ -346,6 +317,7 @@
                 <p>
                     Rammstein is an award winning german band formed in 1994. The band consist of 6 members, <a href="Lindemann-Page.html" target="_blank">Till Lindemann</a> the Vocalist, <a href="Kruspe-Page.html"> Richard Kruspe </a> (guitarist), 
                     <a href="Landers-Page.html" target="_blank">Paul Landers</a>(Guitarist),<a href="Riedel-Page.html" target="_blank">Oliver Riedel</a>(Bassist), <a href="Schneider-page.html" target="_blank">Christoph Scheider</a>(Drummer), <a href="Lorenz-page.html">Christian Lorenz</a>(Keyboardist).
+                    <a style="text-decoration: none;" href="History.html">Read more.</a>
                 </p>
             </div>
 
@@ -356,27 +328,25 @@
         <h1>Recent Albums</h1>
         <div class="albums">
             <div class="alb">
-                <img style="width: 200px; height: 200px;" src="Images/zeit_album.jpg" alt="Zeit Album Cover">
+                <a target="_blank" href="https://open.spotify.com/album/75OE7M0wduJyffbffehHuR"><img style="width: 150px; height: 150px;" src="Images/zeit_album.jpg" alt="Zeit Album Cover"></a>
                 <p>Zeit, 2022</p>
             </div>
             <div class="alb">
-                <img style="width: 200px; height: 200px;" src="Images/Album7.jpg" alt="Untitled Album Cover">
-                <p>Untitled, 2021</p>
+                <a target="_blank" href="https://open.spotify.com/album/1LoyJQVHPLHE3fCCS8Juek"><img style="width: 150px; height: 150px;" src="Images/Album7.jpg" alt="Untitled Album Cover"></a>
+                <p>Rammstein (Untitled), 2021</p>
             </div>
             <div class="alb">
-                <img style="width: 200px; height: 200px;" src="Images/paris_album.jpg" alt="Paris Album Cover">
-                <p>Paris, 2017</p>
+                <a href="https://open.spotify.com/album/2SU0P5F7ZSN36pUZeYgAAG"><img style="width: 150px; height: 150px;" src="Images/paris_album.jpg" alt="Paris Album Cover"></a>
+                <p>Paris (Live), 2017</p>
             </div>
         </div>
         <h1>Gallery</h1>
         <section class="gallery">
-                <ul>
-                    <img src="Images/Img1.jpg" width="800" height="800" alt=""></li>
-                    <img src="Images/Img2.jpg" width="800" height="800" alt=""></li>
-                    <img src="Images/Img3.jpg" width="800" height="800" alt=""></li>
-                    <img src="Images/Img4.jpg" width="800" height="800" alt=""></li>
-                    <img src="Images/Img5.jpg" width="800" height="800" alt=""></li>
-                </ul>
+            <img src="Images/Img1.jpg" width="800" height="800" alt="">
+            <img src="Images/Img2.jpg" width="800" height="800" alt="">
+            <img src="Images/Img3.jpg" width="800" height="800" alt="">
+            <img src="Images/Img4.jpg" width="800" height="800" alt="">
+            <img src="Images/Img5.jpg" width="800" height="800" alt="">
         </section>
     </div>
         <h1 style="text-align: center;">Merchandise</h1>
@@ -401,14 +371,14 @@
             </a>
             <a href="#">
                 <img src="https://shop.rammstein.de/img/katalog/1400/498/bv00001_biker-weste-sons-of-rammstein_1.jpg.webp" alt="">
-                <p>Test Shirt <br> 34.00 USD</p>
+                <p>Test Shirt</p>
             </a>
             <a href="#">
                 <img src="Images/XmasSweater.webp" alt="Xmas Sweater Rammstein">
-                <p>X-mas Sweater<br> 34.00 USD</p>
+                <p>X-mas Sweater</p>
             </a>
         </div>
-        <a id="shopbtn" href="#">Visit shop</a>
+        <a id="shopbtn" target="_blank" href="https://shop.rammstein.de/en">Visit shop</a>
     <footer>
         <div class="footer-content">
             <form onsubmit="return false">
