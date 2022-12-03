@@ -9,12 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="splide.min.css">
-    <link rel="stylesheet" href="splide-default.min.css">
-    <link rel="stylesheet" href="node_modules/@splidejs/">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <script src="splide.min.js"></script>
     
     <style>
 
@@ -105,6 +101,18 @@
             
         }
 
+        #shopbtn {
+            font-weight: bold;
+            padding: 10px;
+            color: black;            
+            border: solid 1px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+
+
+
         .head-store-item {
             display: flex;
             justify-content: center;
@@ -182,13 +190,6 @@
             transform: scale(1.03);
         }
 
-        .Filter button {
-            border-style: none;
-            padding: 20px;
-            background-color: black;
-            color: white;
-            border: 1px solid white;
-        }
 
 
 
@@ -368,27 +369,17 @@
             </div>
         </div>
         <h1>Gallery</h1>
-        <section id="main-carousel" class="splide" aria-label="Splide Basic HTML Example">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <li class="splide__slide"><img src="Images/Img1.jpg" width="800" height="800" alt=""></li>
-                    <li class="splide__slide"><img src="Images/Img2.jpg" width="800" height="800" alt=""></li>
-                    <li class="splide__slide"><img src="Images/Img3.jpg" width="800" height="800" alt=""></li>
-                    <li class="splide__slide"><img src="Images/Img4.jpg" width="800" height="800" alt=""></li>
-                    <li class="splide__slide"><img src="Images/Img5.jpg" width="800" height="800" alt=""></li>
-
+        <section class="gallery">
+                <ul>
+                    <img src="Images/Img1.jpg" width="800" height="800" alt=""></li>
+                    <img src="Images/Img2.jpg" width="800" height="800" alt=""></li>
+                    <img src="Images/Img3.jpg" width="800" height="800" alt=""></li>
+                    <img src="Images/Img4.jpg" width="800" height="800" alt=""></li>
+                    <img src="Images/Img5.jpg" width="800" height="800" alt=""></li>
                 </ul>
-            </div>
         </section>
-        <ul id="thumbnails" class="thumbnails">
-            <li class="thumbnail"><img src="Images/Img1.jpg" alt=""></li>
-            <li class="thumbnail"><img src="Images/Img2.jpg" alt=""></li>
-            <li class="thumbnail"><img src="Images/Img3.jpg" alt=""></li>
-            <li class="thumbnail"><img src="Images/Img4.jpg" alt=""></li>
-            <li class="thumbnail"><img src="Images/Img5.jpg" alt=""></li>
-        </ul>
     </div>
-        <h1 style="text-align: center;">Store</h1>
+        <h1 style="text-align: center;">Merchandise</h1>
         <div class="head-store-item">
             <a href="#">
                 <h3>Pre order the new Single Now! (CD and Vinyl available)</h3>
@@ -417,6 +408,7 @@
                 <p>X-mas Sweater<br> 34.00 USD</p>
             </a>
         </div>
+        <a id="shopbtn" href="#">Visit shop</a>
     <footer>
         <div class="footer-content">
             <form onsubmit="return false">
@@ -442,52 +434,6 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
     <script src="index.js"></script>
-    <script>
-    var splide = new Splide( '#main-carousel', {
-    width: 800,
-    height: 400,
-    cover: true,
-    rewind: true,
-    autoplay: 'true',
-    pagination: false,
-    } );
-
-    var thumbnails = document.getElementsByClassName( 'thumbnail' );
-    var current;
-
-    for ( var i = 0; i < thumbnails.length; i++ ) {
-    initThumbnail( thumbnails[ i ], i );
-    }
-
-    function initThumbnail( thumbnail, index ) {
-    thumbnail.addEventListener( 'click', function () {
-        splide.go( index );
-    } );
-    }
-
-    splide.on( 'mounted move', function () {
-    var thumbnail = thumbnails[ splide.index ];
-
-    if ( thumbnail ) {
-        if ( current ) {
-        current.classList.remove( 'is-active' );
-        }
-
-        thumbnail.classList.add( 'is-active' );
-        current = thumbnail;
-    }
-    } );
-
-    splide.mount();
-
-
-
-
-
-    </script>
-
 </body>
 </html>
