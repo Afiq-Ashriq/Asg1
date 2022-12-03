@@ -9,7 +9,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
-    min-height: 80vh;
     
 }
 
@@ -181,7 +180,7 @@ form input {
 
 
 
-  @media screen  and (max-width: 820px){
+  @media screen  and (max-width: 900px){
 
       #navbar {
           flex-direction: row;
@@ -195,6 +194,7 @@ form input {
           width: 30%;
           font-size: 20px;
       }
+
 
   }
   
