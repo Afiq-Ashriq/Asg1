@@ -33,6 +33,7 @@
 
 .Member-content a {
     color: gold;
+    text-decoration: none;
 }
 
 .fa-brands {

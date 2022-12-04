@@ -11,9 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    
     <style>
-
         body {
             color: white;
             
@@ -86,6 +84,7 @@
         .left a {
             color: gold;
             display: inline-block;
+            text-decoration: none;
         }
 
 
@@ -122,11 +121,6 @@
             margin-bottom: 25px;
         }
 
-        .Merch p {
-            margin: 0;
-        }
-
-
         .Merch img {
             width: 100%;
         }
@@ -149,7 +143,19 @@
             
         }
 
+
+        .price {
+            position: relative;
+            top: 15px;
+            background-color: white;
+            padding: 3px;
+            border-radius: 3px;
+            color: black;
+            font-weight: 600;
+        }
+
         #shopbtn {
+            bottom: 0;
             text-decoration: none;
             font-weight: bold;
             padding: 10px;
@@ -157,7 +163,12 @@
             border: solid 1px;
             background-color: white;
             border-radius: 5px;
+            margin: 25px;
+            float: right;
         }
+
+
+
 
 
 
@@ -184,6 +195,7 @@
             height: auto;
             border-radius: 2px;
             margin: 10px;
+            border: solid 2px orangered;
         }
 
  
@@ -205,7 +217,7 @@
 
 
 
-
+        
 
 
         @media screen and (max-width: 820px) {
@@ -248,15 +260,17 @@
             flex-wrap: wrap;
             
             }
-            .Merch a {
-                font-size: 20px;
-            }
 
-        
-            
+            .Merch p {
+                width: 55%;
+            }
+            .Merch a {
+                font-size: 25px;
+            }
+    
             .Merch img {
-                width: 300px;
-                height: 300px;
+                width: 236px;
+                height: 253px;
             }
             .Merch a {
                 display: flex;
@@ -337,7 +351,20 @@
             .Merch p {
                 width: 65%;
             }
+
+            .Merch a {
+                font-size: 18px;
+            }
     
+        }
+
+
+        @media screen and (max-width: 300px) {
+            .Merch p {
+                width: 55%;
+                font-size: 13px;
+            }
+            
         }
 
     </style>
@@ -375,9 +402,9 @@
         <div class="about-container">
             <div class="left">
                 <p>
-                    Rammstein is an award winning german band formed in 1994. The band consist of 6 members, <a href="Lindemann-Page.html" target="_blank">Till Lindemann</a> the Vocalist, <a href="Kruspe-Page.html"> Richard Kruspe </a> (guitarist), 
-                    <a href="Landers-Page.html" target="_blank">Paul Landers</a>(Guitarist),<a href="Riedel-Page.html" target="_blank">Oliver Riedel</a>(Bassist), <a href="Schneider-page.html" target="_blank">Christoph Scheider</a>(Drummer), <a href="Lorenz-page.html">Christian Lorenz</a>(Keyboardist).
-                    <a style="text-decoration: none;" href="History.html">Read more.</a>
+                    Rammstein is an award winning german band formed in 1994. The band consist of 6 members, <a href="Lindemann-Page.html" target="_blank">Till Lindemann</a> the Vocalist, <a href="Kruspe-Page.html" target="_blank"> Richard Kruspe </a> (guitarist), 
+                    <a href="Landers-Page.html" target="_blank">Paul Landers</a>(Guitarist),<a href="Riedel-Page.html" target="_blank">Oliver Riedel</a>(Bassist), <a href="Schneider-page.html" target="_blank">Christoph Scheider</a>(Drummer), <a href="Lorenz-page.html" target="_blank" >Christian Lorenz</a>(Keyboardist).
+                    <a target="_blank" href="History.html">Read more.</a>
                     <br>
                     <p>Think you're a fan? Take this <a target="_blank" href="quiz.html">quiz</a>.</p>
                 </p>
@@ -398,17 +425,17 @@
                 <p>Rammstein (Untitled), 2021</p>
             </div>
             <div class="alb">
-                <a href="https://open.spotify.com/album/2SU0P5F7ZSN36pUZeYgAAG"><img style="width: 150px; height: 150px;" src="Images/paris_album.jpg" alt="Paris Album Cover"></a>
+                <a target="_blank" href="https://open.spotify.com/album/2SU0P5F7ZSN36pUZeYgAAG"><img style="width: 150px; height: 150px;" src="Images/paris_album.jpg" alt="Paris Album Cover"></a>
                 <p>Paris (Live), 2017</p>
             </div>
         </div>
         <h1>Gallery</h1>
         <section class="gallery">
-            <img src="Images/Img1.jpg" width="800" height="800" alt="">
-            <img src="Images/Img2.jpg" width="800" height="800" alt="">
-            <img src="Images/Img3.jpg" width="800" height="800" alt="">
-            <img src="Images/Img4.jpg" width="800" height="800" alt="">
-            <img src="Images/Img5.jpg" width="800" height="800" alt="">
+            <img src="Images/Img1.jpg" width="800" height="800" alt="Rammstein group picture">
+            <img src="Images/Img2.jpg" width="800" height="800" alt="Rammstein group picture">
+            <img src="Images/Img3.jpg" width="800" height="800" alt="Till lindemann">
+            <img src="Images/Img4.jpg" width="800" height="800" alt="Till lindemann fire background">
+            <img src="Images/Img5.jpg" width="800" height="800" alt="Rammstein group picture">
         </section>
     </div>
         <h1 style="text-align: center;">Merchandise</h1>
@@ -419,25 +446,25 @@
             </a>
         </div>
         <div class="Merch" id="Merch">
-            <a href="#">
-                <img src="https://shop.rammstein.de/img/katalog/854/316/dunkel20111101-152445-ts-ramones-blau-f500.jpg.webp" alt="">
-                <p>T-SHIRT "EST. 1994" *BLUE*</p>
+            <a target="_blank" href="https://shop.rammstein.de/en/catalog/apparel/mens/t-shirts/t-shirt-est-1994-blue.html">
+                <img src="Images/BlueTshirt.webp" alt="Blue T-shirt">
+                <p>T-SHIRT "EST. 1994" *BLUE* <br> <span class="price">25.00 EUR</span></p>
             </a>
-            <a href="#">
-                <img src="https://shop.rammstein.de/img/katalog/854/316/dunkel20111101-152445-ts-ramones-blau-f500.jpg.webp" alt="">
-                <p>Test Shirt</p>
+            <a target="_blank" href="https://shop.rammstein.de/en/catalog/whats-new/toolbox-stein-um-stein.html">
+                <img src="Images/Toolbox.webp" alt="Toolbox">
+                <p>TOOLBOX "STEIN UM STEIN" <br> <span class="price">80.00 EUR</span></p>
             </a>
-            <a href="#">
-                <img src="https://shop.rammstein.de/img/katalog/854/316/dunkel20111101-152445-ts-ramones-blau-f500.jpg.webp" alt="">
-                <p>Test Shirt</p>
+            <a target="_blank" href="https://shop.rammstein.de/en/catalog/whats-new/snow-globe-mein-herz-brennt.html">
+                <img src="Images/Snowglobe.webp" alt="Snow globe">
+                <p>SNOW GLOBE "MEIN HERZ BRENNT" <br> <span class="price">60.00 EUR</span></p>
             </a>
-            <a href="#">
-                <img src="https://shop.rammstein.de/img/katalog/1400/498/bv00001_biker-weste-sons-of-rammstein_1.jpg.webp" alt="">
-                <p>Test Shirt</p>
+            <a target="_blank" href="https://shop.rammstein.de/en/catalog/apparel/mens/jackets-vests/biker-vest-rammstein.html">
+                <img src="Images/bikervest.webp" alt="Biker vest">
+                <p>BIKER VEST "RAMMSTEIN" <br> <span class="price">125.00 EUR</span></p>
             </a>
-            <a href="#">
-                <img src="Images/XmasSweater.webp" alt="Xmas Sweater Rammstein">
-                <p>X-mas Sweater</p>
+            <a target="_blank" href="https://shop.rammstein.de/en/catalog/apparel/mens/long-sleeve-shirts/mens-long-sleeved-shirt-weisses-kreuz.html">
+                <img src="Images/LongSleeveShirt.webp" alt="Long Sleeve shirt">
+                <p>MEN'S LONG-SLEEVED SHIRT "WEISSES KREUZ" <br> <span class="price">35.00 EUR</span></p>
             </a>
         </div>
         <a id="shopbtn" target="_blank" href="https://shop.rammstein.de/en">Visit shop</a>
@@ -456,10 +483,10 @@
                 <a href="members.html" target="_blank">Members</a>
             </nav>
             <div class="socials">
-                <a href="https://www.instagram.com/rammsteinofficial/?hl=en"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.youtube.com/channel/UCYp3rk70ACGXQ4gFAiMr1SQ"><i class="fa-brands fa-youtube"></i></a>
-                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a target="_blank" href="https://www.instagram.com/rammsteinofficial/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCYp3rk70ACGXQ4gFAiMr1SQ"><i class="fa-brands fa-youtube"></i></a>
+                <a target="_blank" href="https://www.tiktok.com/@rammstein"><i class="fa-brands fa-tiktok"></i></a>
+                <a target="_blank" href="https://twitter.com/RSprachrohr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter"></i></a>
             </div>
             <div id="madeBy">
                 <p>Website made by Afiq</p>
