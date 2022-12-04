@@ -21,16 +21,24 @@ I chose a black,white and red theme as it fits the band's theme.
 For my navigation bar, I have decided to make it simple.
  The home page will consist of the featured music video in the header, followed by latest videos of the band and then the gallery and finally the store that will link to the band's merchandise shop.
 
+I decided to split my members infomation into individual pages at then the page wont be too long.
+
+I wanted some javascript besides the form in the footer so I created a quiz for visitors to see
+if they know the band. This can teach the visitors new things about the band.
+
+
+
 
 
 ## ----Features----
 
 EXISTING FEATUERS
-Feature 1 - Navigation bar at the top for easy navigation of the website
-Feature 2 - Clicking on the logo at the top of the website brings user to home page
-Feature 3 - Form in the footer for users to sign up to receive news about the band. It will include javascript to print out a message when the sign up button is clicked.
-Feature 4 - Short quiz. Used javascript to calculate score of quiz and to print out a score card
+- Feature 1 - Navigation bar at the top for easy navigation of the website
+- Feature 2 - Clicking on the logo at the top of the website brings user to home page
+- Feature 3 - Form in the footer for users to sign up to receive news about the band. It will  include javascript to print out a message when the sign up button is clicked.
+- Feature 4 - Short quiz. Used javascript to calculate score of quiz and to print out a score card
 when submitted.
+- Members is a main page that will lead to individual member pages
 
 
 ## FEATURES LEFT TO IMPLEMENT
@@ -55,7 +63,7 @@ when submitted.
 
 - Information on history of band https://www.rammsteinworld.com/en/rammstein/history#:~:text=Formation%20and%20early%20years%20(1994,by%20American%20music%2C%20especially%20Kiss.
 
-
+- Information on Till Lindemann. https://rammwiki.net/wiki/Till_Lindemann
 - Information on Richard Kruspe. https://rammwiki.net/wiki/Richard_Kruspe
 - Information on Oliver Riedel. https://rammwiki.net/wiki/Oliver_Riedel
 - Information on Paul Landers. https://www.imdb.com/name/nm0004574/bio?ref_=nm_ov_bio_sm and https://rammwiki.net/wiki/Paul_Landers
