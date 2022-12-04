@@ -1,5 +1,5 @@
 
-
+/* Top part of homepage */
 .featured-content p {
     font-size: 2vw;
 }
@@ -40,7 +40,7 @@
 
 
 
-
+/* About band part*/
 .about-container {
     margin-top: 10px;
     color: white;
@@ -74,7 +74,7 @@
 
 
 
-
+/* Albums */
 .albums {
     max-width: 100%;
     display: flex;
@@ -97,7 +97,7 @@
 }
 
 
-
+/* Merch styling */
 .Merch {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -154,10 +154,6 @@
 
 
 
-
-
-
-
 .head-store-item {
     display: flex;
     justify-content: center;
@@ -169,6 +165,7 @@
 }
 
 
+/* Gallery styling */
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -184,6 +181,7 @@
 }
 
 
+/* Latest music video styling */
 .song img {
     max-width: 100%;
     transition: all .2s ease-in-out;
@@ -204,7 +202,7 @@
 
 
 
-
+/* For tablet */
 @media screen and (max-width: 820px) {
 
     .featured-content {
@@ -273,7 +271,7 @@
 }
 
 
-
+/* For phone */
 @media screen and (max-width: 600px) {
     .left {
         width: 100%;
