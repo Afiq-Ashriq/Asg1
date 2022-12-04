@@ -5,31 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rammstein</title>
+    <link rel="shortcut icon" href="Images/bandLogo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="members.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <style>
 
-        .album-container {
-            display: flex;
-
+        .main {
+            background: rgb(121,9,9);
+            background: radial-gradient(circle, rgba(121,9,9,1) 18%, rgba(0,0,0,1) 100%, rgba(139,24,24,1) 100%);
+            font-size: 20px;
         }
 
 
+        .album-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 15px;
+            justify-content: center;
+        }
 
+        .alb p {
+            width: 200px;
+        }
 
+        .alb img {
+            max-width: 100%;
+            height: auto;
+        }
 
-        @media screen and (max-width: 600px) {
-            .album-container {
-                flex-wrap: wrap;
-                flex-direction: column;
-            }
+        .alb img:hover {
+            filter:opacity(0.8);
+            transition: ease-in-out;
+        }
+        
 
+        .popular-songs {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+        }
+        .popular-songs a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            border-bottom: 1px solid white;
+        }
 
+        .popular-songs a:hover {
+            background-color: rgba(255, 255, 255, 0.267);
         }
 
 
@@ -52,16 +80,57 @@
         </div>
     </div>
     <div class="main">
-        <hr>
-        <h1>Most popular songs</h1>
+        <h2>Most popular songs</h2>
         <div class="popular-songs">
-            <a href="https://www.youtube.com/watch?v=W3q8Od5qJio&ab_channel=RammsteinOfficial">Du hast <br> 470M views</a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=W3q8Od5qJio&ab_channel=RammsteinOfficial">1. Du hast, 470M views</a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=NeQM1c-XCDc&ab_channel=RammsteinOfficial">2. Deutschland, 283M views</a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=EOnSh3QlpbQ&ab_channel=RammsteinOfficial">3. Ich Will, 283M views</a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=StZcUAPRRac&ab_channel=RammsteinOfficial">4. Sonne, 215M views</a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=1M4ADcMn3dA&ab_channel=RammsteinOfficial">5. Keine Lust, 174M views</a>
         </div>
         <h2>Albums</h2>
         <div class="album-container">
-            <img width="200px" height="200px" src="Images/Rammstein_-_Zeit.png" alt="Album:Zeit">
-            <img width="200px" height="200px" src="Images/Album7.jpg" alt="Untitled Album">
-            <img width="200px" height="200px" src="Images/liebe-ist-fur-alle-da.jpg" alt="Liebe ist für alle da">
+            <div class="alb">
+                <a target="_blank" href="https://open.spotify.com/album/75OE7M0wduJyffbffehHuR"><img style="width: 300px; height: 300px;" src="Images/zeit_album.jpg" alt="Zeit Album Cover"></a>
+                <p>Zeit, 2022</p>
+            </div>
+            <div class="alb">
+                <a target="_blank" href="https://open.spotify.com/album/1LoyJQVHPLHE3fCCS8Juek"><img style="width: 300px; height: 300px;" src="Images/Album7.jpg" alt="Untitled Album"></a>
+                <p>Untitled, 2020</p>
+            </div>
+            <div class="alb">
+                <a target="_blank" href="https://open.spotify.com/album/2SU0P5F7ZSN36pUZeYgAAG"><img style="width: 300px; height: 300px;" src="Images/paris_album.jpg" alt="Paris Album"></a>
+                <p>Paris(Live), 2017</p>
+            </div>
+            <div class="alb">
+                <a target="_blank" href="https://open.spotify.com/album/29J0MchD0OWNeiMNbPDwfa"><img style="width: 300px; height: 300px;" src="Images/liebe-ist-fur-alle-da.jpg" alt="Liebe ist für alle da"></a>
+                <p>Liebe ist für alle da, 2009</p>
+            </div>
+            <div class="alb">
+                <a target="_blank" href="https://open.spotify.com/album/3PrS5X3QNdDUlBIE4bz6J2"><img style="width: 300px; height: 300px;" src="Images/rosenrot_album.jpg" alt="Rosenrot Album"></a>
+                <p>Rosenrot, 2005</p>
+            </div>
+            <div class="alb">
+                <a target="_blank" href="https://open.spotify.com/album/74ydDCcXTco741y42ceRJ5"><img style="width: 300px; height: 300px;" src="Images/reise-reise.jpg" alt="Riese riese Album"></a>
+                <p>Reise, Reise, 2004</p>
+            </div>
+            <div class="alb">
+                <a target="_blank" href="https://open.spotify.com/album/1CtTTpKbHU8KbHRB4LmBbv"><img style="width: 300px; height: 300px;" src="Images/mutter.jpg" alt="Mutter Album"></a>
+                <p>Mutter, 2001</p>
+            </div>
+            <div class="alb">
+                <a target="_blank" href="https://open.spotify.com/album/0P3nXUvcows985g3qGA8mm"><img style="width: 300px; height: 300px;" src="Images/live-aus-berlin.jpg" alt="Live aus Berlin Album"></a>
+                <p>Live aus Berlin (Live), 1999</p>
+            </div>
+            <div class="alb">
+                <a target="_blank" href="https://open.spotify.com/album/2w6Vy8qZLU4niyQAHyu0Ag"><img style="width: 300px; height: 300px;" src="Images/sehnsucht.jpg" alt="Sehnsucht album"></a>
+                <p>Sehnsucht, 1997</p>
+            </div>
+            <div class="alb">
+                <a target="_blank" href="https://open.spotify.com/album/6HlDm9fzYxk4vkkr3YEvSv"><img style="width: 300px; height: 300px;" src="Images/herzeleid.jpg" alt="Herzeleid album"></a>
+                <p>Herzeleid, 1995</p>
+            </div>
+
         </div>
     </div>
 
@@ -74,8 +143,8 @@
     <footer>
         <div class="footer-content">
             <form onsubmit="return false">
-                <label for="name">Sign up to get the latest news!</label>
-                <input type="email" name="name" id="useremail" placeholder="E-mail">
+                <label for="useremail">Sign up to get the latest news!</label>
+                <input type="email" name="useremail" id="useremail" placeholder="E-mail">
                 <button id="button" onclick="thankYou()">Sign up</button>
                 <p id="message" style="display: none;">Thank you for signing up!</p>
             </form>

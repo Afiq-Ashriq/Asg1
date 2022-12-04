@@ -7,7 +7,10 @@
     border-radius: 50px;
     box-shadow: 0 0 8px 2px black inset;
     padding: 15px;
+    font-weight: 800;
 }
+
+
 
 .Member-container {
     display: flex;
@@ -52,6 +55,11 @@
     font-size: 25px;
 }
 
+@media screen and (min-width: 540px) {
+    .main { height: 1000px}
+    
+}
+
 @media screen and (max-width: 600px) {
     .main {
         width: 100%;
@@ -70,3 +78,5 @@
 
 
 }
+
+

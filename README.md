@@ -56,12 +56,15 @@ when submitted.
 - Information on history of band https://www.rammsteinworld.com/en/rammstein/history#:~:text=Formation%20and%20early%20years%20(1994,by%20American%20music%2C%20especially%20Kiss.
 
 
+- Information on Richard Kruspe. https://rammwiki.net/wiki/Richard_Kruspe
 - Information on Oliver Riedel. https://rammwiki.net/wiki/Oliver_Riedel
-- Information on Paul Landers. https://www.imdb.com/name/nm0004574/bio?ref_=nm_ov_bio_sm
+- Information on Paul Landers. https://www.imdb.com/name/nm0004574/bio?ref_=nm_ov_bio_sm and https://rammwiki.net/wiki/Paul_Landers
 - Information on Christoph Schneider. https://rammwiki.net/wiki/Christoph_Schneider
 - Information on Christian Lorenz. https://rammwiki.net/wiki/Christian_Lorenz
 
 - Information for Live shows.https://www.viagogo.com/sg/Concert-Tickets/Hard-Rock-Metal/Rammstein-Tickets?AffiliateID=49&adposition=&PCID=PSSGGOOCONRAMMS07358354D0&AdID=620702311398&MetroRegionID=&psc=%2c&ps=cy-7564%7cmr-763&ps_p=0&ps_c=13025698536&ps_ag=143923178791&ps_tg=kwd-1732878945813&ps_ad=620702311398&ps_adp=%2c&ps_fi=%2c&ps_li=%2c&ps_lp=9062509&ps_n=g&ps_d=c&gclid=EAIaIQobChMI9eXmpvzV-wIVVg4rCh04hQmqEAAYASAAEgJolfD_BwE
+
+- All album images https://www.rammsteinworld.com/en/discography/albums.
 
 
 - code to check value of checked radio button. https://stackoverflow.com/questions/15839169/how-to-get-value-of-selected-radio-button
@@ -69,6 +72,8 @@ when submitted.
 
 
 ## Media
+
+Rammstein logo. https://br.pinterest.com/pin/659355201664818753/
 
 Icons from (Social media icons, arrow icon) https://fontawesome.com/icons
 

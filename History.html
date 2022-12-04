@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rammstein</title>
+    <link rel="shortcut icon" href="Images/bandLogo.jpg" type="image/x-icon">
+    <link rel="styleshe" href="ic">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,9 +25,13 @@
         }
 
         .firstpic {
-            display: grid;
+            display: flex;
             justify-content: center;
-            max-width: 100%;
+        }
+
+        @media screen and (min-width: 540px) {
+            .main { height: 1000px}
+            
         }
 
 
@@ -55,12 +61,25 @@
                 <p>Rammstein was founded in Berlin, 1994. The founding fathers of the band are <a href="Kruspe-Page.html">Richard Kruspe</a> and <a href="Schneider-page.html">Christoph Schneider.</a>
                     Richard was living with Oliver Riedel of The Inchtabokatables and Christoph "Doom" Schneider at the time (of Die Firma). Richard realized that the music he had previously created did not suit him; 
                     he envisioned a sound that combined machines and the sound of heavy guitars. The three began collaborating on a new project. Richard soon discovered that writing both music and lyrics at the same time was difficult
-                    and invited <a target="_blank" href="Lindemann-Page.html">Till Lindemann </a> to Rammstein after hearing him sing while he was working. In 1994, there was a contest for amateur 
-                    bands and the winner would receive the opportunity to record a four-track demo 
-                    audiotape in a proffesional studio.
+                    and invited <a target="_blank" href="Lindemann-Page.html">Till Lindemann </a> to Rammstein after hearing him sing while he was working.
                 </p>
-                <img class="firstpic" style="width: 400px; height: 250px;" src="Images/Img3.jpg" alt="">
-                <p>Richard was living with Oliver Riedel of The Inchtabokatables and Christoph "Doom" Schneider at the time (of Die Firma). Richard realized that the music he had previously created did not suit him; he envisioned a sound that combined machines and the sound of heavy guitars. The three began collaborating on a new project. Richard soon discovered that writing both music and lyrics at the same time was extremely difficult, so he persuaded Lindemann to join Rammstein.</p>
+                <p>
+                    In 1994, there was a contest for amateur bands and the winner would receive the opportunity to record a four-track demo
+                    audiotape in a proffesional studio. Richard Kruspe, Olvier Riedel, and Till Lindemann entered and won the contest. This caught
+                    the attention of Paul Landers, who then wanted to join the project after hearing their demo. To compelete their sound,
+                    Rammstein tried recruiting Christian Lorenz. He was hesistant at first but joined after some time.
+                </p>
+            </section>
+            <section>
+                <h2>First album: Herzeleid (1995-1997)</h2>
+                <p>
+                    On March 1995, they began to record their first album, Herzeleid with producer Jacob Hellner.
+                    They released their first single, Du riechst so gut on 17 August and the album was released on
+                    24  September 1995. In the same year, they toured with Clawfinger in Warsaw and Prague. Rammstein
+                    had a tour of their own through germany with 17 shows which helped to boost the band's popularity.
+                    In early 1996, the band was touring and also released their second single Seemann on 8 January
+                    1996.
+                </p>
             </section>
         </div>
 
@@ -75,8 +94,8 @@
         <footer>
             <div class="footer-content">
                 <form onsubmit="return false">
-                    <label for="name">Sign up to get the latest news!</label>
-                    <input type="email" name="name" id="useremail" placeholder="E-mail">
+                    <label for="useremail">Sign up to get the latest news!</label>
+                    <input type="email" name="useremail" id="useremail" placeholder="E-mail">
                     <button id="button" onclick="thankYou()">Sign up</button>
                     <p id="message" style="display: none;">Thank you for signing up!</p>
                 </form>

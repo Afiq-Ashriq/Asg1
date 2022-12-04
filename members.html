@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rammstein</title>
+    <link rel="shortcut icon" href="Images/bandLogo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +19,7 @@
             width: 100%;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center;
         }
 
         .Member-imgs div{
@@ -50,20 +51,12 @@
 
 
 
-
-
-
-
         @media  screen and (max-width: 600px) {
             .Member {
                 max-width: 100%;
             }
 
         }
-
-
-
-
 
 
 
@@ -90,37 +83,37 @@
             <div class="flex-item">
                 <p>Till-Lindemann (Lead Singer)</p>
                 <div class="Member">
-                    <a  href="Lindemann-Page.html"><img height="350px" width="300px" src="Images/Till-Lindemann.jpg" alt=""></a>
+                    <a  href="Lindemann-Page.html"><img src="Images/Till-Lindemann.jpg" alt=""></a>
                 </div>
             </div>
             <div class="flex-item">
                 <p>Oliver Riedel (Bassist)</p>
                 <div class="Member">
-                    <a href="Riedel-Page.html"><img height="350px" width="300px" src="Images/oliver_riedel.jpg" alt=""></a>
+                    <a href="Riedel-Page.html"><img src="Images/oliver_riedel.jpg" alt=""></a>
                 </div>
             </div>
             <div class="flex-item">
                 <p>Richard Kruspe (Lead Guitar)</p>
                 <div class="Member">
-                    <a href="Kruspe-Page.html"><img height="350px" width="300px" src="Images/Richard-Krupse.jpg" alt=""></a>
+                    <a href="Kruspe-Page.html"><img src="Images/Richard-Krupse.jpg" alt=""></a>
                 </div>
             </div>
             <div class="flex-item">
                 <p>Paul Landers (Rhythm Guitar)</p>
                 <div class="Member">
-                    <a href="Landers-Page.html"><img height="350px" width="300px" src="Images/Paul-Landers.jpg" alt=""></a>
+                    <a href="Landers-Page.html"><img src="Images/Paul-Landers.jpg" alt=""></a>
                 </div>
             </div>
             <div class="flex-item">
                 <p>Christian Lorenz (Keyboardist)</p>
                 <div class="Member">
-                    <a href="Lorenz-page.html"><img height="350px" width="300px" src="Images/Christian-Lorenz.jpg" alt=""></a>
+                    <a href="Lorenz-page.html"><img src="Images/Christian-Lorenz.jpg" alt=""></a>
                 </div>
             </div>
             <div class="flex-item">
                 <p>Christoph Schneider (Drummer)</p>
                 <div class="Member">
-                    <a href="Schneider-page.html"><img height="350px" width="300px" src="Images/Christoph-Schneider.jpg" alt=""></a>
+                    <a href="Schneider-page.html"><img src="Images/Christoph-Schneider.jpg" alt=""></a>
                 </div>
             </div>
                 
@@ -138,8 +131,8 @@
     <footer>
         <div class="footer-content">
             <form onsubmit="return false">
-                <label for="name">Sign up to get the latest news!</label>
-                <input type="email" name="name" id="useremail" placeholder="E-mail">
+                <label for="useremail">Sign up to get the latest news!</label>
+                <input type="email" name="useremail" id="useremail" placeholder="E-mail">
                 <button id="button" onclick="thankYou()">Sign up</button>
                 <p id="message" style="display: none;">Thank you for signing up!</p>
             </form>
